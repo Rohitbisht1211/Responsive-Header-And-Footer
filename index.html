@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header And Footer</title>
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+     <!-- Header -->
+     <header>
+        <div class="container">
+            <div class="logo">Logo</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <i class="fa fa-search"></i>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="what-new">
+                        <span> New</span>
+                    </li>
+                    <li class="dropdown">Projects
+                        <ul class="dropdown-menu">
+                            <li>Project 1</li>
+                            <li>Project 2</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">Clients Partners
+                        <ul class="dropdown-menu">
+                            <li>Client 1</li>
+                            <li>Client 2</li>
+                        </ul>
+                    </li>
+                    <li>Home</li>
+                    <li>About Us</li>
+                </ul>
+            </nav>
+            <div class="login-signup">
+                <button>Login</button>
+                <button>Signup</button>
+            </div>
+            <div class="toggle-bar" id="toggle-bar">&#9776;</div>
+        </div>
+    </header>
+    
+    <section class="head">
+        <h1>Main content </h1>
+    </section>
+    <div class="floating-stage">
+        <p><b>Ready for a next project?</b></p>
+            <p> Let's get started!</p>
+        <button>Contact Us</button>
+    </div>
+    <section class="footer">
+        <!-- Floating Section -->
+       
+
+        <!-- Footer Content -->
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Logo</h4>
+                <p>© 2024</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Client Partners</h4>
+                <ul class="links">
+                    <li><a href="#">Client 1</a></li>
+                    <li><a href="#">Client 2</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul class="links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Further Information</h4>
+                <ul class="links">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Follow Us Section -->
+        <div class="followB">
+            <div class="footer-col follow-us">
+                <h4>Follow Us</h4>
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
